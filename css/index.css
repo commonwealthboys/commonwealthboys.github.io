@@ -1,0 +1,43 @@
+:root {
+    --header-height: 5rem;
+    --theme-1: antiquewhite;
+}
+
+body {
+    background-color: black;
+    color: var(--theme-1);
+    text-align: center;
+    margin-top: calc(var(--header-height) + 1rem);
+    font-family: sans-serif;
+}
+
+h1, h2, h3, section.splash p, header li, footer li {
+    font-family: 'Impact', sans-serif;
+}
+
+a {
+    color: var(--theme-1);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li[role=menuitem]::marker {
+    content: none;
+}
+
+section {
+    width: 70%;
+    margin: 0 15%;
+}
+
+section.splash {
+    text-align: center;
+}
+
+section.splash h1 {
+    font-size: 5rem;
+    margin: 1rem;
+}
