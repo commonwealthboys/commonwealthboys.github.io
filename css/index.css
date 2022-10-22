@@ -41,3 +41,10 @@ section.splash h1 {
     font-size: 5rem;
     margin: 1rem;
 }
+
+iframe.song-frame {
+    border: 0;
+    max-width: 350px;
+    height: 442px;
+    margin: 0 1rem;
+}
